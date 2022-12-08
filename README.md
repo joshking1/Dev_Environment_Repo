@@ -2,25 +2,25 @@
 
 # Clone the code below 
 
-# https://github.com/joshking1/Dev_Environment_Repo.git 
+$ git clone https://github.com/joshking1/Dev_Environment_Repo.git 
 
-# ls 
+$ ls 
 
-# cd Dev_Environment_Repo.git 
+$ cd Dev_Environment_Repo.git 
 
 # Run the following terraform lifecycle 
 
 #First Command - init 
 
-terraform init 
+$ terraform init 
 
 #Second command 
 
-terraform plan 
+$ terraform plan 
 
 #Third command 
 
-Terraform apply 
+$ terraform apply 
 
 When tempted enter the YES to continue 
 
@@ -28,9 +28,9 @@ The IP address you need will be made available by terraform at the end of the pr
 
 # When you are done testing, 
 
-Run the fourth command 
+#Run the fourth command 
 
-terraform destroy 
+$ terraform destroy 
 
 This command will clean up the environment 
 
